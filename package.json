@@ -1,0 +1,23 @@
+{
+  "name": "nfse_saoluis",
+  "version": "1.0.0",
+  "description": "Projeto open source de gerenciamento de notas fiscais",
+  "main": "index.js",
+  "repository": "git@github.com:tagorycardoso/nfse_saoluis.git",
+  "author": "ProgCeuma",
+  "license": "GNU",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
